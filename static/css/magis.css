@@ -1,0 +1,28 @@
+*{
+    font-family: 'Kreon', serif;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-decoration-line: none; 
+}
+:root{
+    --ful-spacing: 64px;
+    --big-spacing: 32px;
+    --med-spacing: 24px;
+    --nor-spacing: 16px;
+    --mid-spacing: 8px;
+    --sma-spacing: 4px;
+    --min-spacing: 2px;
+
+    --white: #ffffff;
+    --black: #000000;
+}
+
+html, body{
+    width: 100%;
+    background-color: var(--white);
+}
+
+.hidden{
+    display: none;
+}
