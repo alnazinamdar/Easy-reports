@@ -6,7 +6,7 @@ const mysql_connection = function(){
 			host:'localhost',
 			user:'root',
 			password:'',
-			database:'easy_news'
+			database:'easy_reports'
 	});
 }
 

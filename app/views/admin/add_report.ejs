@@ -1,0 +1,23 @@
+<!DOCTYPE html lang="pt-br">
+<html>
+<head>
+	<title> Easy Reports </title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="static/css/main.css">
+	<link rel="stylesheet" type="text/css" href="static/css/magis.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Kreon:300,400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<h1> Add Reports </h1>
+
+	<form action="/reports/save" method="POST">
+		<label> Title </label>
+		<input type="text" id="report_title" name="title" placeholder="Report creative Title">
+		<label> Report </label>
+		<textarea id="report" name="report" rows="5" cols="30"></textarea>
+		<input type="submit" value="Send">
+	</form>
+</body>
+</html>
