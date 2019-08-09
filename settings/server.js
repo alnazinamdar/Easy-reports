@@ -8,7 +8,8 @@ app.set('view engine','ejs');
 app.set('views','./app/views');
 
 app.use(bodyParser.urlencoded({extended:true}));
-app.use(express.static(__dirname + '/static'));
+app.use(express.static('static'));
+
 
 consign()
     .include('app/routes')
@@ -16,4 +17,4 @@ consign()
     .then('app/models')
     .into(app)
     
-module.exports=app;
+module.exports=app; 

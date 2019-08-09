@@ -5,3 +5,7 @@ O que é DAO(Data Access Object)?
     Nome, sobrenome, data de nascimento, email, usuario, senha, telefone, entre outros. 
     Nesse sistema o administrador poderá Adicionar novos usuários, remover usuários existentes, atualizar informações de usuários
     e por consequencia buscar os usuários do banco.
+
+O que é o Express Validator?
+    Express Validator é um pacote node que é utilizado em aplicações com express para facilitar a validação de formulários.
+    Neste pacote temos uma variedade de 

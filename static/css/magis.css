@@ -14,12 +14,15 @@
     --sma-spacing: 4px;
     --min-spacing: 2px;
 
-    --white: #ffffff;
+    --white: #f1f1f1f1;
     --black: #000000;
+
+    --gray: #333333;
 }
 
 html, body{
     width: 100%;
+    height: 100%;
     background-color: var(--white);
 }
 

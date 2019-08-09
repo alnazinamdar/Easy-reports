@@ -1,5 +1,6 @@
 const app = require('./settings/server');
 
-app.listen(3000,function(){
-	console.log('Server running on localhost:3000!');
+const port = 3000
+app.listen(port, function(){
+	console.log('Server running on localhost:' + port + '!');
 });
