@@ -1,5 +1,5 @@
 module.exports = function(app){
-	app.get('/add_report',function(req,res){
+	app.get('/add_report', function(req,res){
 		res.render('admin/add_report');
 	});
 
@@ -12,6 +12,5 @@ module.exports = function(app){
 		report_model.save_report(report, connection, function(error, result){
 			res.redirect('/reports');
 		});
-	
 	});
 }

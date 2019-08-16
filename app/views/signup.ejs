@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Easy Reports </title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/magis.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/signup.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Kreon:300,400,700&display=swap" rel="stylesheet">
+</head> 
+<body>  
+	<header class="header">
+		<div class="navBrandDiv">
+			<h1 class="navBrand"> Easy Reports </h1>
+		</div>
+		<nav class="headerNav">			
+			<ul class="navList">
+				<li class="navListItem">
+					<a class="navBrandAnchor" href="/"> Home </a>
+                </li>	
+                <li class="navListItem">
+					<a class="navBrandAnchor signinAnchor" href="/signin"> Entrar </a>
+				</li>
+			</ul>
+		</nav>
+    </header>
+    
+    <main class="main">
+		<section class="signup">
+			<div class="signupSpacing">	
+				<a href="/">
+					<h1 class="signupH1"> Easy Reports </h1>	
+				</a>
+				<form action="/signup" method="POST" class="form">
+					<input class="formInput" type="text" name="name" placeholder="Name" >
+					<input class="formInput" type="text" name="last_name" placeholder="Last Name">
+                    <input class="formInput" type="Date" name="birth" placeholder="Brith Date" >
+                    
+                    <input class="formInput" type="text" name="username" placeholder="Username">
+                    <input class="formInput" type="text" name="email" placeholder="E-mail">
+                    <input class="formInput" type="password" name="password" placeholder="Password">
+                    <input class="formInput" type="password" name="password_confirm" placeholder="Confirm Password">   
+                    
+					<input class="formInputSubmit" type="submit" value="Criar Conta">
+				</form>
+			</div>
+		</section>
+	</main>
+
+</body>
+</html>
