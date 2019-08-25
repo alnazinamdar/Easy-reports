@@ -10,7 +10,6 @@ app.set('views','./app/views');
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static('static'));
 
-
 consign()
     .include('app/routes')
     .then('settings/connection.js')
