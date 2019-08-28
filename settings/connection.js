@@ -11,14 +11,14 @@ const mysql_connection = () => {
 	});
 }
 
-mysql_connection().connect((err) => {
-	if(err){
-		console.log("Cannot Connect to Database. Error: " + err);
-	}
-	else{
-		console.log("Database connection successfully!");
-	}
-});
+// mysql_connection().connect((err) => {
+// 	if(err){
+// 		console.log("Cannot Connect to Database. Error: " + err);
+// 	}
+// 	else{
+// 		console.log("Database connection successfully!");
+// 	}
+// });
 
 
 module.exports = function(){
