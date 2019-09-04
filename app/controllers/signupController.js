@@ -3,5 +3,6 @@ module.exports.signup = (req, res) => {
 };
 
 module.exports.signupPost = (req, res) => {
-    res.redirect('signin');
+    const data = req.body;
+    // res.redirect('signin');
 };
