@@ -1,7 +1,7 @@
-function User() { };
+function Model() { };
 
-User.prototype.create = () => {
-    this.name = data.name;
+Model.prototype.create = (data) => {
+    // this.name = data.name;
     // this.lastName = data.lastName;
     // this.birth = data.birth;
     // this.username = data.username;
@@ -9,18 +9,19 @@ User.prototype.create = () => {
     // this.password = data.password;
 };
 
-User.prototype.read = () => {
+Model.prototype.read = () => {
 
 };
 
-User.prototype.update = () => {
+Model.prototype.update = () => {
 
 };
 
-User.prototype.delete = () => {
+Model.prototype.delete = () => {
 
 };
 
 module.exports = () => {
-    return User;
+    return Model;
 }
+
