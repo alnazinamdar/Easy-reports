@@ -1,11 +1,11 @@
-.header{
+.header{   <!-- CSS property for header section -->
     background-color: rgb(53, 52, 63);
     color: var(--white);
     display: flex;
     height: 64px;
     box-shadow: 0px 8px 32px #272a5846;
 }
-
+<!-- CSS property for navigation menu -->
 .navBrandDiv{
     align-items: center;
     display: flex;
